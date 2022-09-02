@@ -72,3 +72,44 @@ console.log("e === f is false");
 console.log(e === f);
 //xii
 console.log("python".length > "jargon".length);
+//q6
+
+let g = 4;
+h = 3;
+i = 10;
+j = 12;
+//i
+console.log("g>h && i<j is true");
+console.log(g > h && i < j);
+//ii
+console.log("g>h && i>j is false");
+console.log(g > h && i > j);
+//iii
+console.log("g>h || i<j is true");
+console.log(g > h || i < j);
+//iv
+console.log("g>h || i>j is true");
+console.log(g > h || i > j);
+//v
+console.log("!(g>h) is false");
+console.log(!(g > h));
+//vi
+console.log("!(g<h) is true");
+console.log(!(g < h));
+//vii
+console.log(!false);
+//viii
+console.log("!(g>h && i<j) is false");
+console.log(!(g > h && i < j));
+//ix
+console.log("!(g>h && i>j) is true");
+console.log(!(g > h && i > j));
+//x
+console.log("!(e === f )is true");
+console.log(!(e === f));
+//xi
+let string = "dragon";
+let string2 = "python";
+
+console.log(string.substring(0, 4));
+console.log(string2.substring(0, 4));
